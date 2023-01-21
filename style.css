@@ -1,0 +1,89 @@
+*{
+   padding: 0;
+   margin: 0;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+  
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.gallary
+{
+    height: 15%;
+    width: 75%;
+    background-color: black;
+    font-size: 5rem;
+    color: white;
+    text-align:center;
+    
+    margin: 5%;
+}
+.right_box_1
+{
+    height: 44%;
+    width: 80%;
+    background-color: black;
+    font-size: 5rem;
+    color: white;
+    text-align:center;
+    margin: 5%;
+    background-image: url("/images/shiva.jfif");
+    background-size: cover;
+}
+.right_box_2
+{
+    height: 27%;
+    width: 80%;
+    background-color: black;
+    font-size: 5rem;
+    color: white;
+    text-align:center;
+    margin: 5%;
+ 
+}
+
+.left_flex{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    width: 100%;
+    height: 100%;
+    margin-top: 5%;
+}
+.left_box_1{
+    width: 100%;
+    height: 50%;
+   
+    
+}
+.left_box_2{
+    width: 100%;
+    height: 50%;
+   
+}
+.left_part_1{
+    width: 63%;
+    height: 37%;
+    background-color: black;
+    margin: 5%;
+    margin-top: 50%;
+}
+.left_box_3
+{
+    height: 27%;
+    width: 80%;
+    background-color: black;
+    font-size: 5rem;
+    color: white;
+    text-align:center;
+     margin-top: -38%;
+}
+.text{
+    font-size: 3rem;
+    color: blue;
+    position: relative;
+    top: -30%;
+    z-index: 1;
+    margin-left: 57%;
+}
